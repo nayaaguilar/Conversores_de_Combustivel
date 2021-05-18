@@ -1,0 +1,81 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'optima',monospace;
+    min-height: 400px;
+    background-image: url('https://cdnb.artstation.com/p/assets/images/images/011/203/697/large/nikolay-evsyukov-2575b661666319-5b18cb56770d5.jpg?1528357425');
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    background-size: cover;
+    background-position: center;
+    --background-repeat: no-repeat;
+    }
+  
+  .container {
+      text-align: center;
+      padding: 10px;
+      height: 180vh;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0  5px;
+    font: Courier New, monospace;
+  }
+  .page-subtitle {
+    color: white;
+    margin-top: 5px;
+    font-family: Pangolin
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  .alura-logo{
+      
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  .conversores {
+      display: block;
+      padding-top: 70px;
+  }
+  
+  .div-label {
+      color: #f1f2f6;
+      margin: auto;
+      padding-top: 20px;
+      padding-bottom: 10px;
+  }
+  
+  .imput-style {
+    height: 30px;
+    width: 50px;
+    border: 10px ridge black;
+    background-color: transparent;
+    color: black;
+    font-size: 45px;
+    text-align: center;
+  }
+  
+  .button-style {
+      border: 100px;
+      background: #D6A2E8;
+      color: white;
+      border: none;
+      border-color: #0066A2;
+      height: 23px;
+      width: 160px;
+      font: optima 24px arial, sans-serif;
+      opacity: 90%;
+  }
+  
+  .resultado {
+      margin-top: 5px;
+      margin-bottom: 0px;
+      padding: 0;
+      color: #ffdd59;
+      font-family: 'optima', monospace;
+  }

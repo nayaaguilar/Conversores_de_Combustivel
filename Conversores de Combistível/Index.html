@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">
+          CONVERSORES DE COMBUSTÍVEL
+        </h1>
+        <p class="page-subtitle">
+     Descubra quantos <strong> litros</strong> de gasolina, alcóol ou diesel você consegue comprar com x reais (R$)
+        </p>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="page-logo">
+      <div class="conversores">
+              <div class="div-label">
+                  <h3>
+                      <span>Conversor de Real para Litros de Gasolina </span>
+                  </h3>
+                  <input class="input-style" type="text" id="RealParaLitros">
+                  <input class="button-style" type="submit" onclick="ConverterParaGasolina()" value="Converter">
+                  <h3 id="resultadoLitro" class="resultado"></h3>
+              </div>
+              <hr style="border-color: transparent;">
+              <div class="div-label">
+                 <h3>
+                <span>Conversor de Real para Litros de Alcóol </span>
+                  </h3>
+                  <input class="input-style" type="text" id="RealParaLitrosDeAlcool">
+                  <input class="button-style" type="submit" onclick="ConverterParaAlcool()" value="Converter">
+                  <h3 id="resultadoAlcool" class="resultado"></h3>
+              </div>
+              <hr style="border-color: transparent;">
+              <div class="div-label">
+                <h3>
+                  <span>Conversor de Real para Litros de Diesel </span>
+                  </h3>
+                  <input class="input-style" type="text" id="RealParaLitrosDeDiesel">
+                  <input class="button-style" type="submit" onclick="ConverterParaDiesel()" value="Converter">
+                  <h3 id="resultadoDiesel" class="resultado"></h3>
+              </div>
+              <hr style="border-color: transparent;">
+              <div class="div-label">
+                   </div>
+          </div>
+      </div>
+      <a href="https://alura.com.br/" target="_blank">
+          <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+      </a>
+      <script src="Script.js"></script>
+</body> 
+</html>
